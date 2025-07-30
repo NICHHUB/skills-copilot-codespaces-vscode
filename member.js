@@ -1,10 +1,10 @@
 function skillsMember() {
     return {
-        restict: 'E',
+        restrict: 'E',
         templateUrl: 'modules/skills/views/member.html',
         controller: 'SkillsMemberController',
         controllerAs: 'vm',
-        bindTocontroller: true,
+        bindToController: true,
         scope: {
             member: '='
         },
