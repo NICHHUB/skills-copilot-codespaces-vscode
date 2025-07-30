@@ -1,3 +1,12 @@
 function skillsMember() {
-    return "This is a member of the skills module.";
+    return {
+        restict: 'E',
+        templateUrl: 'modules/skills/views/member.html',
+        controller: 'SkillsMemberController',
+        controllerAs: 'vm',
+        bindTocontroller: true,
+        scope: {
+            member: '='
+        },
+    };
 }
